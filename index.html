@@ -210,6 +210,25 @@
     <div class="columns is-centered">
       <div class="column is-full">
         <div class="content">
+          <h2 class="title is-3">Whiteboard Erasing Policy</h2>
+          <p>We use the AnySense app alongside AnySkin to collect tactile-rich video demonstrations for the task of erasing a whiteboard. Using these demonstrations, we train a behavior cloning policy and deploy our model on the Hello Robot Stretch.</p>
+          <video id="main-video" autoplay muted loop playsinline height="100%">
+            <source src="./static/videos/tactile-white-board.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+    <!-- /New Video Section -->
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <!-- New Video Section Above Double Column -->
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
           <h2 class="title is-3">Untethered Anyskin Visualization</h2>
           <p>As a user touches the magnetized skin, the readings from the magnetometer underneath it (which measures the change in magnetic flux) are streamed via bluetooth to a computer, where they can then be visualized.</p>
           <video id="main-video" autoplay muted loop playsinline height="100%">
@@ -234,26 +253,6 @@
           <p>We train a slip detection model using tactile readings from the AnySkin sensor as input. Once an object is grasped, a user can tug on it, which is detected by the model. The gripper then opens to hand the object to the user.</p>
           <video id="main-video" autoplay muted loop playsinline height="100%">
             <source src="./static/videos/handover-demo.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-    <!-- /New Video Section -->
-  </div>
-</section>
-
-
-<section class="section">
-  <div class="container is-max-desktop">
-
-    <!-- New Video Section Above Double Column -->
-    <div class="columns is-centered">
-      <div class="column is-full">
-        <div class="content">
-          <h2 class="title is-3">Whiteboard Erasing Policy</h2>
-          <p>We use the AnySense app alongside AnySkin to collect tactile-rich video demonstrations for the task of erasing a whiteboard. Using these demonstrations, we train a behavior cloning policy and deploy our model on the Hello Robot Stretch.</p>
-          <video id="main-video" autoplay muted loop playsinline height="100%">
-            <source src="./static/videos/tactile-white-board.mp4" type="video/mp4">
           </video>
         </div>
       </div>
